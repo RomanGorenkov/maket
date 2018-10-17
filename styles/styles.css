@@ -1,10 +1,13 @@
-/*
 body{
-    background: url("../images/fon.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}*/
+    z-index:-8;
+    background: 
+        linear-gradient(
+      rgba(0, 150, 100, 0.2), 
+      rgba(0, 150, 100, 0.2)
+    ),
+    url();
+}
+ 
 #background-image{
  position:absolute;
  top:0;
@@ -15,5 +18,30 @@ body{
  display:none;
  }
 
+#background-tone{
+ position:absolute;
+ top:0;
+ left:0;
+ z-index:-9;
+ overflow: hidden;
+ width: 100%;
+ display:none;
+ }
+
 .content{
  height:500px;}
+
+/*
+.tinted-image {
+  
+  width: 1000px;
+  height: 1000px;
+  
+  background: 
+    linear-gradient(
+      rgba(0, 150, 100, 0.2), 
+      rgba(0, 150, 100, 0.2)
+    ),
+    url();
+    https://img3.goodfon.ru/original/1920x1080/0/2b/kafe-kamin-prazdnik.jpg
+}*/
