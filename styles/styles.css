@@ -1,0 +1,19 @@
+/*
+body{
+    background: url("../images/fon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}*/
+#background-image{
+ position:absolute;
+ top:0;
+ left:0;
+ z-index:-10;
+ overflow: hidden;
+ width: 100%;
+ display:none;
+ }
+
+.content{
+ height:500px;}
