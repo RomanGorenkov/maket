@@ -1,11 +1,21 @@
+html{
+    
+}
+
 body{
-    z-index:-8;
-    background: 
-        linear-gradient(
-      rgba(0, 150, 100, 0.2), 
-      rgba(0, 150, 100, 0.2)
-    ),
-    url();
+    background: url(https://img3.goodfon.ru/original/1920x1080/0/2b/kafe-kamin-prazdnik.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: cover; /* Современные браузеры */
+    width: 90%;
+    margin: auto;
+    
+}
+
+p{
+    color: white;
+    background-color: rgba(19, 10,10,0.7);  
 }
  
 #background-image{
@@ -22,12 +32,18 @@ body{
  position:absolute;
  top:0;
  left:0;
- z-index:-9;
+ z-index:-10;
  overflow: hidden;
  width: 100%;
  display:none;
  }
 
+header{
+  width: 900px;   
+  height: 200px;   
+  background-color: rgba(19, 10,10,0.7);  
+  margin-bottom: 10px;    
+}
 .content{
  height:500px;}
 
