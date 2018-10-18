@@ -1,23 +1,61 @@
 html{
-    
-}
-
-body{
     background: url(https://img3.goodfon.ru/original/1920x1080/0/2b/kafe-kamin-prazdnik.jpg) no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: cover; /* Современные браузеры */
+}
+
+
+body{
+    
     width: 90%;
-    margin: auto;
+    margin: 100px auto;
+    background-color: rgba(19, 10,10,0.7);
+    padding: 0px 20px 20px 20px;
+    border: 3px solid black;
     
 }
 
+.toolbar {
+position: fixed; 
+border-bottom: 5px;
+border-bottom-color:  rgba(19, 10,10,0.7);
+background-color: rgba(19,16,10,1);
+top: 0px; 
+left: 0px; 
+z-index: 9999;
+
+width: 100%;
+height: 100px; 
+}
+
+.tolbar > div{
+    display: inline;
+}
+
+#logo{
+    display: inline;
+    margin-top: 0.22%;
+    margin-left: 5%;
+/*
+    width= 5px; 
+    height= 5px;
+*/
+}
+
+
+
+
+
+
+
 p{
     color: white;
-    background-color: rgba(19, 10,10,0.7);  
+/*    background-color: rgba(19, 10,10,0.7);  */
 }
  
+/*
 #background-image{
  position:absolute;
  top:0;
@@ -47,17 +85,7 @@ header{
 .content{
  height:500px;}
 
-/*
-.tinted-image {
-  
-  width: 1000px;
-  height: 1000px;
-  
-  background: 
-    linear-gradient(
-      rgba(0, 150, 100, 0.2), 
-      rgba(0, 150, 100, 0.2)
-    ),
-    url();
+
     https://img3.goodfon.ru/original/1920x1080/0/2b/kafe-kamin-prazdnik.jpg
-}*/
+}
+*/

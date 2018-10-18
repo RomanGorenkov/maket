@@ -1,0 +1,36 @@
+#clock{
+    display: inline-block;
+    width: 300px;
+/*    background-color: rgba(100, 100, 100, 0.65);*/
+    color: white;
+    margin-top: 0px;
+    margin-left: 25px;
+    height: 30px;
+    padding: 7px 7px 0 7px;
+/*
+    border: 1px solid rgba(255, 255, 255, 0.65); ;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(100, 100, 100, 0.65);
+    -moz-box-shadow:    0px 2px 0px 0px rgba(100, 100, 100, 0.65);
+    box-shadow:         0px 2px 0px 0px rgba(100, 100, 100, 0.65);
+*/
+    font-size:25px;
+        }
+.city{
+            display: inline;
+            font-size:20px;
+        }
+
+
+.time{
+            display: inline;
+            font-weight: bold;
+        }
+
+.day-of-week{
+    display: inline;
+}
+#probel{
+    display: inline;
+    width: 50px;
+}
