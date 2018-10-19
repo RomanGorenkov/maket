@@ -1,36 +1,29 @@
-#clock{
+.clock{
+    position: relative; /* Относительное позиционирование */
+    top: -1em; /* Сдвигаем вниз */
     display: inline-block;
-    width: 300px;
-/*    background-color: rgba(100, 100, 100, 0.65);*/
+    width: 400px;
     color: white;
     margin-top: 0px;
     margin-left: 25px;
     height: 30px;
     padding: 7px 7px 0 7px;
-/*
-    border: 1px solid rgba(255, 255, 255, 0.65); ;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 2px 0px 0px rgba(100, 100, 100, 0.65);
-    -moz-box-shadow:    0px 2px 0px 0px rgba(100, 100, 100, 0.65);
-    box-shadow:         0px 2px 0px 0px rgba(100, 100, 100, 0.65);
-*/
     font-size:25px;
         }
-.city{
-            display: inline;
-            font-size:20px;
+
+
+div.clock >span {
+            
+            
+            display: inline-block;
+            font-weight: lighter;
+            margin-left: 20px;
+            margin-right: 20px;
         }
-
-
-.time{
-            display: inline;
-            font-weight: bold;
-        }
-
-.day-of-week{
-    display: inline;
+#day{
+    margin-right: 5px;
 }
-#probel{
-    display: inline;
-    width: 50px;
+#date{
+    margin-left: 5px;
 }
+
