@@ -27,3 +27,8 @@ div.clock >span {
     margin-left: 5px;
 }
 
+.clockbox{
+    display: inline-block;
+    width: 100px;
+}
+
