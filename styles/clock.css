@@ -2,7 +2,7 @@
     position: relative; /* Относительное позиционирование */
     top: -1em; /* Сдвигаем вниз */
     display: inline-block;
-    width: 400px;
+    width: 320px;
     color: white;
     margin-top: 0px;
     margin-left: 25px;

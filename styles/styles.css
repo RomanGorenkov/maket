@@ -33,19 +33,59 @@ background-color: rgba(19,16,10,1);
 top: 0px; 
 left: 0px; 
 z-index: 9999;
-
 width: 100%;
 height: 100px; 
 }
 
-.tolbar > div{
-    display: inline;
+div.toolbar > div{
+    display: inline-block;
+}
+
+div.worktime{
+    position: relative; /* Относительное позиционирование */
+    top: -0.8em; /* Сдвигаем вниз */
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+div.search{
+    position: relative; /* Относительное позиционирование */
+    top: -1.6em; /* Сдвигаем вниз */
+    padding:0 20px;
+    margin-left: 10%;
 }
 
 #logo{
     display: inline;
     margin-top: 0.22%;
     margin-left: 5%;
+}
+
+[placeholder="Search"]{
+/*    font-family: 'Berlin Sans FB';*/
+    background: url(http://s1.iconbird.com/ico/2013/9/450/w256h2561380453921Search256x25632.png) no-repeat 3px 1px;
+    background-position: 7px 1.2px;
+    background-size:  7%;
+    padding-left: 22px;
+/*    padding-right: 10px;*/
+    border-width: 0;
+    border-radius: 10px;
+    outline-color:aquamarine;
+    outline: inherit;
+    
+   
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 0 2pt gray;
+}
+
+
+.search > div{
+    background-color: rgba(255, 250, 250,0.97);
+    border-radius: 10px;
+    
 }
 
 
