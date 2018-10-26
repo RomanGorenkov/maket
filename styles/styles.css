@@ -23,9 +23,7 @@ body{
 }
 
 .toolbar {
-/*    font-family: 'Mali', cursive;*/
-    font-family: 'Berlin Sans FB';
-    
+font-family: 'Berlin Sans FB';
 position: fixed; 
 border-bottom: 5px;
 border-bottom-color:  rgba(19, 10,10,0.7);
@@ -37,15 +35,15 @@ width: 100%;
 height: 100px; 
 }
 
-div.toolbar > div{
+.toolbar  div,p{
     display: inline-block;
+    font-family: 'Berlin Sans FB';
 }
 
 div.worktime{
     position: relative; /* Относительное позиционирование */
     top: -0.8em; /* Сдвигаем вниз */
     font-size: 1.2em;
-    display: inline-block;
     text-align: left;
     color: white;
 }
@@ -63,12 +61,10 @@ div.search{
 }
 
 [placeholder="Search"]{
-/*    font-family: 'Berlin Sans FB';*/
     background: url(http://s1.iconbird.com/ico/2013/9/450/w256h2561380453921Search256x25632.png) no-repeat 3px 1px;
     background-position: 7px 1.2px;
     background-size:  7%;
     padding-left: 22px;
-/*    padding-right: 10px;*/
     border-width: 0;
     border-radius: 10px;
     outline-color:aquamarine;
@@ -78,7 +74,9 @@ div.search{
 }
 
 input[type="search"]:focus {
-    box-shadow: 0 0 0 2pt gray;
+    box-shadow: 0pt 0pt 10pt 3pt gray;
+    position: relative;
+    
 }
 
 
@@ -94,7 +92,7 @@ input[type="search"]:focus {
     margin-left: 25px;
 }
 
-.sociallink > a > img{
+.sociallink  a  img{
     width: 25px;
     height: 25px;
     padding: 0 4px;
@@ -106,30 +104,21 @@ input[type="search"]:focus {
     padding: 0 15px;
 }
 
-.login > p{
+.login  p{
     font-family: 'Berlin Sans FB';
     font-size: 17pt;
-    display: inline-block;
 }
 
 .menu{
-    display: inline-block;
     position: relative; /* Относительное позиционирование */
     top: -0.7em;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
-.menu > img{
-    width: 60px;
-    height: 40px;
+.menu  img{
+    width: 40px;
+    height: 28px;
 }
-
-
-
-
-
-
-
 
 p{
     font-family: 'Acme', sans-serif;

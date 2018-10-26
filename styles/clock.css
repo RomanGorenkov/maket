@@ -1,7 +1,6 @@
 .clock{
     position: relative; /* Относительное позиционирование */
     top: -1em; /* Сдвигаем вниз */
-    display: inline-block;
     width: 320px;
     color: white;
     margin-top: 0px;
@@ -13,22 +12,19 @@
 
 
 div.clock >span {
-            
-            
-            display: inline-block;
-            font-weight: lighter;
-            margin-left: 20px;
-            margin-right: 20px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
         }
 #day{
     margin-right: 5px;
 }
+
 #date{
     margin-left: 5px;
 }
 
 .clockbox{
-    display: inline-block;
     width: 100px;
 }
 
