@@ -27,7 +27,7 @@ font-family: 'Berlin Sans FB';
 position: fixed; 
 border-bottom: 5px;
 border-bottom-color:  rgba(19, 10,10,0.7);
-background-color: rgba(19,16,10,1);
+/*background-color: rgba(19,16,10,1);*/
 top: 0px; 
 left: 0px; 
 z-index: 9999;
@@ -38,6 +38,12 @@ height: 100px;
 .toolbar  div,p{
     display: inline-block;
     font-family: 'Berlin Sans FB';
+}
+div.backgraund{
+    position: fixed;
+    background-color: rgba(19,16,10,0.5);
+    width:inherit;
+    height: inherit;
 }
 
 div.worktime{
@@ -54,8 +60,7 @@ div.search{
     margin-left: 10%;
 }
 
-#logo{
-    display: inline;
+div.logo{
     margin-top: 0.22%;
     margin-left: 5%;
 }
@@ -123,6 +128,7 @@ input[type="search"]:focus {
 p{
     font-family: 'Acme', sans-serif;
     color: white;
+    
 /*    background-color: rgba(19, 10,10,0.7);  */
 }
  
