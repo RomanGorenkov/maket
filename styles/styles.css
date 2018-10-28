@@ -172,7 +172,7 @@ div.main_content{
     margin: auto;
     width: 90%;
     background-color: rgba(19, 10,10,0.7);
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 80px 20px;
     border: 3px solid black;
 }
 
@@ -185,6 +185,16 @@ div.footer{
     
     background-color: black;
 }
+
+.footer_hats{
+    display: block;
+    position: relative;
+    right: -80%;
+    top:-50%;
+    height: 100px;
+    width: auto;
+}
+
 /*
 #background-image{
  position:absolute;
