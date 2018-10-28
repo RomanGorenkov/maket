@@ -12,23 +12,24 @@
 .top-panel {
     color: white;
     background-color: rgba(19,16,10,1);
+    border-radius: 0px 0px 7px 7px;
     position: fixed;
     top: 0;
-    right: 0;
-    width: 400px;
+    right: 10px;
+    width: 130px;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transform: translateY(-100%);
     -moz-transform: translateY(-100%);
-    transform: translateY(0);
-    opacity: .99;
+    transform: translateY(-100%);
     z-index: -1;
     
 }
 
 /* Блок сообщения */
+/*
 .message {
     color: #fff;
     font-weight: 300;
@@ -37,14 +38,19 @@
     margin: 0 auto;
     max-width: 980px
 }
+*/
 /* Заголовок 1 уровня */
+/*
 .message h1 {
     color: #fff
 }
+*/
 /* Заголовок 2 уровня */
+/*
 .message h2 {
     color: #888
 }
+*/
 /*скрываем чекбокс*/
 .open {
    position: absolute;
@@ -122,5 +128,46 @@ label.btn:after {
     
     content: '\f077';
     font: normal 18px/1 FontAwesome
+}
+
+.nav_menu{
+    position: relative;
+    display: block;
+    width: inherit;
+    height: inherit;
+    border: 3px;
+    border-color: white;
+    border-style:none solid solid solid;
+    overflow: hidden;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.nav_menu > ul{
+    padding: 10px 0 0 30px;
+}
+
+.nav_menu > ul li::before{
+    
+    position:absolute;
+    top: 15px;
+    left: -30px;
+    width:25px;
+    border-bottom:3px solid #fff;
+    content:"";
+}
+
+
+.nav_menu > ul li:hover{
+    cursor: default;
+    left: -7px;
+    
+}
+
+.item{
+    position: relative;
+    display: block;
+    height: 20px;
+    padding: 5px;
+    width: inherit;  
 }
 

@@ -3,7 +3,8 @@ html{
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: cover; /* Современные браузеры */
+    background-size: cover;
+    background-attachment: fixed;/* Современные браузеры */
     @import url('https://fonts.googleapis.com/css?family=Acme');
     @import url('https://fonts.googleapis.com/css?family=Mali');
     @import url('../fonts/Berlin%20Sans%20FB%20Regular.ttf');
@@ -13,12 +14,8 @@ html{
 
 
 body{
+    margin:  100px auto 0;
     
-    width: 90%;
-    margin: 100px auto;
-    background-color: rgba(19, 10,10,0.7);
-    padding: 0px 20px 20px 20px;
-    border: 3px solid black;
     
 }
 
@@ -61,6 +58,7 @@ div.search{
 }
 
 div.logo{
+    position: relative;
     margin-top: 0.22%;
     margin-left: 5%;
 }
@@ -91,17 +89,55 @@ input[type="search"]:focus {
     
 }
 
+
+
+
+
+
+
 .sociallink{
     position: relative; /* Относительное позиционирование */
-    top: -1.1em; /* Сдвигаем вниз */
+    top: -1.4em; /* Сдвигаем вниз */
     margin-left: 25px;
+    
 }
 
-.sociallink  a  img{
+.sociallink a div img{
+    position: relative;
+    top: -.5em;
+    right: .5em;
     width: 25px;
     height: 25px;
-    padding: 0 4px;
 }
+
+div.lights{
+    background-color: aqua;
+    position: relative;
+    top: .75em;
+    margin: 0 7.5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.sociallink a div:hover{
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    transition: 0.35s;
+    box-shadow: 0 0 15px 8px rgba(255, 255, 255, 0.48), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .login{
     position: relative; /* Относительное позиционирование */
@@ -132,6 +168,23 @@ p{
 /*    background-color: rgba(19, 10,10,0.7);  */
 }
  
+div.main_content{
+    margin: auto;
+    width: 90%;
+    background-color: rgba(19, 10,10,0.7);
+    padding: 0px 20px 20px 20px;
+    border: 3px solid black;
+}
+
+div.footer{
+    position: relative;
+    bottom: 0;
+    padding: 0;
+    height: 120px;
+    width: 100%;
+    
+    background-color: black;
+}
 /*
 #background-image{
  position:absolute;
