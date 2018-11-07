@@ -162,13 +162,7 @@ div.lights{
     height: 28px;
 }
 
-p{
-    font-family: 'Acme', sans-serif;
-    color: white;
-    
-/*    background-color: rgba(19, 10,10,0.7);  */
-}
- 
+
 div.main_content{
     margin: auto;
     width: 90%;
@@ -223,6 +217,67 @@ div.main_content{
     cursor: pointer;
 }
 
+.sing_up{
+    position: relative;
+    font-family: 'Berlin Sans FB';
+    margin: 0 0;
+    border-top: 15px solid rgba(0, 0, 0 ,.9);
+    border-bottom: 15px solid rgba(0, 0, 0 ,.9);
+    height: auto;
+    padding: 30px 10%;
+    color: black;
+    background-color: rgba(255,255,255,.9);
+}
+
+envelope_img{
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.sing_up_block{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin: 20px 40px;
+    
+}
+.sing_up p{
+    vertical-align: middle;
+    margin: 0 25px;
+    line-height: 22px;
+    font-size: 1.5rem;
+}
+
+input[type="email"]{
+    margin: 0 10px;
+    height: 22px;
+    outline: none;
+}
+
+input[type="email"]:focus{
+    outline: 1px solid #aaa;
+    
+}
+
+.sing_up button{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(230,230,230);
+    border-radius: 5px;
+    outline: none;
+}
+
+.sing_up button:focus{
+    box-shadow: 0pt 0pt 10pt 3pt gray;
+    position: relative;
+}
+
+.sing_up button:hover{
+    background-color: rgba(0,0,0,.8);
+}
 /*
 #background-image{
  position:absolute;
